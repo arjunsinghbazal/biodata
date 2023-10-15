@@ -1,38 +1,47 @@
-.App {
-  text-align: center;
+.mobFoot {
+  display: none;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media screen and (max-width: 840px) {
+  .mobFoot {
+    display: flex;
+    justify-content: space-around;
+  }
+  .desktopFoot {
+    display: none;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.main::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background-image: url("./pics/3 (2).png");
+  background-size: cover; 
+  background-repeat: no-repeat;
+  opacity: 0.04;
+  z-index: -1;
 }
 
-.App-link {
-  color: #61dafb;
+/* For phone view where width is 100vh and height is 100vw */
+@media screen and (max-width: 767px) {
+  .main::after {
+     background-image: none;
+  }
+  .homeContainer::after{
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-image: url("./pics/3\ \(2\).png");
+  background-size: cover; 
+  background-repeat: no-repeat;
+  opacity: 0.04;
+  z-index: -1;
+  }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

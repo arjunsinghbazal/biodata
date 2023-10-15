@@ -1,0 +1,54 @@
+.footContainer{
+    position: fixed;
+    bottom: 9rem;
+    right: 2.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2.2rem;
+}
+
+.footContainer::before{
+    content: '';
+    height: 6.6rem;
+    width: 0.1rem;
+    background-color: var(--blue);
+    position: absolute;
+    bottom: -8.4rem;
+    box-shadow: 0 0 3px var(--blue);
+    opacity: 0.8;
+}
+
+.foot-icon{
+    opacity: 0.8;
+    color: var(--white);
+    cursor: pointer;
+    transition: 0.2s ease-out;
+}
+
+.foot-icon:hover{
+    transition: 0.2s ease-out;
+    transform: translateY(-4px);
+    color: var(--shadow);
+    opacity: 1;
+}
+
+.mobFootContainer {
+    opacity: 1;
+    padding: 0.5rem 0;
+    /* position: fixed; Remove position: fixed */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 2rem;
+    box-shadow: 0 0 12px var(--footShadow);
+    z-index: 10;
+    width: 100vw;
+    border-top: 3px solid var(--blue);
+    
+}
+
+
+
+
