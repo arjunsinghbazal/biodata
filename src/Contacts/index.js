@@ -7,9 +7,9 @@ import './styles.css'; // Make sure this path is correct based on your project s
 
 function Contacts() {
   const formRef = useRef();
-  const serviceId = process.env.REACT_APP_EMAILJS_SERVICE_ID;
-  const templateId = process.env.REACT_APP_EMAILJS_TEMPLATE_ID;
-  const apiKey = process.env.REACT_APP_EMAILJS_API_KEY;
+  const serviceId = "service_4z3ecok";
+  const templateId =  "template_8uopsun"
+  const apiKey = "y4okR21pdpz6e2cHu";
 
   const sendMail = (e) => {
     e.preventDefault();
@@ -64,13 +64,13 @@ function Contacts() {
       <form ref={formRef} onSubmit={sendMail} className="formControl">
         <FormInput
           placeholder="Your Name"
-          name="Sender-name"
+          name="Sender_name"
           type="text"
           delay={0}
         />
         <FormInput
           placeholder="Your E-mail"
-          name="Sender-mail"
+          name="Sender_email"
           type="email"
           delay={0.2}
         />
