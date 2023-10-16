@@ -5,6 +5,7 @@ import Footer from "../Comp/Common/Footer";
 import Foot from "../Comp/Common/Footer/option";
 import Education from "../Comp/About/Education";
 import ResumeViewer from "../Comp/About/Education/resume";
+import MovingWord from "../Comp/Common/movingword";
 import cv from "../pics/recv.pdf"
 const About=()=>{
     return(
@@ -12,12 +13,13 @@ const About=()=>{
             <Navbar/>
             <Personal/>
             <Education/>
+            <MovingWord word="This is the About Page"/>
             <ResumeViewer pdfUrl={cv} />
             <div className="desktopFoot">
           <Footer />
         </div>
         <div className="mobFoot">
-          <Foot />
+          <Foot className="mob-relative"/>
         </div>
         </>
     )

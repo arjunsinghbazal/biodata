@@ -4,7 +4,9 @@ import Footer from "../Comp/Common/Footer";
 import Foot from "../Comp/Common/Footer/option";
 import Work from "../Comp/Work";
 import { motion } from "framer-motion";
+import MovingWord from "../Comp/Common/movingword";
 import (".././App.css")
+
 const Workin=()=>{
     return(
          <motion.div
@@ -15,11 +17,12 @@ const Workin=()=>{
       >
             <Navbar/>
             <Work/>
+            <MovingWord word="This is the work page."/>
             <div className="desktopFoot">
           <Footer />
         </div>
         <div className="mobFoot">
-          <Foot />
+          <Foot className="mob-relative"/>
         </div></motion.div>
     )
 }

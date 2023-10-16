@@ -4,6 +4,8 @@ import Foot from "../Comp/Common/Footer/option";
 import Footer from "../Comp/Common/Footer";
 import { motion } from "framer-motion"
 import Home from "../Comp/Home";
+import "../Pages/styles.css"
+import MovingWord from "../Comp/Common/movingword";
 const Main=()=>{
     return(
         <motion.div
@@ -14,11 +16,13 @@ const Main=()=>{
       >
         <Navbar />
         <Home/>
+        <MovingWord word="Welcome to my portfolio"/>
         <div className="desktopFoot">
           <Footer />
         </div>
+        
         <div className="mobFoot">
-          <Foot />
+          <Foot className="mob-fixed"/>
         </div>
       </motion.div>
     )

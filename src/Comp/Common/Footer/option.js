@@ -5,11 +5,11 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom'
 
-function Foot() {
+function Foot({className}) {
   return (
     <div>
       <motion.div
-        className='mobFootContainer'
+        className={className}
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 30 }}
         transition={{

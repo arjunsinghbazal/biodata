@@ -116,7 +116,9 @@
       );
     }
   }
-  
+  .aboutTag span{
+    color: var(--blue);
+  }
   @media screen and (max-width: 1188px) {
     .name h2 {
       font-size: 3.8rem;
@@ -163,6 +165,7 @@
     }
     .homeContainer {
       width: 70%;
+      padding-top: 5rem;
     }
   }
   
@@ -193,6 +196,7 @@
       font-size: 0.6rem;
       line-height: 1rem;
     }
+    
     .toAboutLink{
       font-size: 0.6rem;
     }

@@ -76,7 +76,7 @@ function Home() {
                     }
                 }}
             >
-               I'm a React developer, specializing in 
+               I'm a <span>React </span>developer, specializing in 
                creating immersive and interactive web 
                experiences. My days and nights are devoted 
                to crafting projects and writing code to
