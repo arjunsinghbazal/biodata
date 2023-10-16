@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import emailjs from 'emailjs-com'; // Changed the import to use 'emailjs-com' instead of '@emailjs/browser'
+import emailjs from 'emailjs-com'; 
 import { motion } from 'framer-motion';
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -58,7 +58,7 @@ function Contacts() {
         transition={{ duration: 0.5 }}
         className="contactPara"
       >
-       Got a question or just want to say hello?
+       Let's Start a Conversation
       </motion.p>
 
       <form ref={formRef} onSubmit={sendMail} className="formControl">
@@ -89,7 +89,7 @@ function Contacts() {
           cols={40}
           rows={10}
         />
-        <FormButton label="Send Message" delay={0.7} />
+        <FormButton label="Send Email" delay={0.7} />
       </form>
     </div>
   );
