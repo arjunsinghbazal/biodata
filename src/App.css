@@ -3,7 +3,7 @@
 }
 .main{
   width: 100vw;
-  height: 100vh;
+  height: 90vh;
 }
 @media screen and (max-width: 840px) {
   .mobFoot {

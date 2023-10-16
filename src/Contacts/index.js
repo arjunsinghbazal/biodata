@@ -17,7 +17,7 @@ function Contacts() {
     emailjs.sendForm(serviceId, templateId, formRef.current, apiKey)
       .then((result) => {
         console.log(result.text);
-        showToast('Message Sent Successfully!', 'success');
+        showToast('Email Sent Successfully!', 'success');
       })
       .catch((error) => {
         console.error(error);
