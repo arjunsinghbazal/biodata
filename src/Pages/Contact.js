@@ -33,7 +33,7 @@ function Contact() {
           <Footer />
         </div>
         <div className="mobFoot">
-          <Foot className="mob-relative"/>
+          <Foot className="mob-fixed"/>
         </div></>
   )
 }

@@ -70,13 +70,12 @@
     font-size: 0.9rem;
     resize: none;
     overflow-y: auto;
-    height: 5rem;
+    height: 6rem;
   }
   
   .formControl input:focus,
   .formControl textarea:focus {
-    border: 1px solid var(--shadow);
-    box-shadow: 0 0 8px var(--shadow);
+    border-bottom: 2px solid var(--white);
     outline: none;
   }
   
