@@ -7,7 +7,7 @@ import AnimatedCursor from "react-animated-cursor";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const style = {
   borderRadius: '50%',
-  border: "2px solid rgb(76, 76, 220)",
+  border: "2px solid #fff",
   backgroundColor: 'none'
 };
 root.render(
@@ -18,9 +18,9 @@ root.render(
             outerSize={29}
             color="76, 76, 220"
             zIndex={9999999999}
-            outerAlpha={0.3}
-            innerScale={0.7}
-            outerScale={1.5}
+            outerAlpha={0.2}
+            innerScale={0.6}
+            outerScale={1.3}
             outerStyle={style}
           />
   </React.StrictMode>

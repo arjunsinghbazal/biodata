@@ -19,14 +19,14 @@ function Education() {
             />
             <Details
                 classname={'pg timeLine'}
-                university={'GHS School Panthal J&K'}
+                university={'GHS School Panthal Katra J&K'}
                 course={"10+2 | PCM-Science"}
                 duration={'2014-2016'}
             />
             
             <Details
                 classname={'ug'}
-                university={'Shinning Star High School'}
+                university={'Shinning Star High School Katra'}
                 course={"Matrix | 10th"}
                 duration={'2013-2014'}
             />

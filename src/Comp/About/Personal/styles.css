@@ -15,21 +15,6 @@
     border-radius: 0.5rem;
   }
   
-  /* .imageContainer::before {
-    content: "";
-    height: 16rem;
-    width: 15rem;
-    position: absolute;
-    bottom: 0.5rem;
-    left: 1rem;
-    border-radius: 0.5rem;
-    border-radius: 0 50% 40% 0;
-    background-color:var(--blue);
-    opacity: 0.24;
-    transition: 0.4s ease-in-out;
-    z-index: 1;
-  } */
-  
   .imageContainer img {
     height: 16rem;
     width: 15rem;
@@ -85,6 +70,15 @@
   }
   
   @media screen and (max-width: 730px) {
+    .imageContainer img {
+      height: 16rem;
+      width: 17rem;
+      background-color:var(--blue);
+      border-radius: 0 40% 0 0;
+      position: absolute;
+      left: 0.7rem;
+      bottom: 0.5rem;
+    }
     .detailsContainer {
       flex-direction: column;
       margin-bottom: 4.8%;
@@ -101,6 +95,7 @@
     .imageContainer {
       height: 11rem;
       width: 10rem;
+      
     }
   }
   

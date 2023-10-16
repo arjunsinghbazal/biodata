@@ -1,6 +1,6 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import { motion, useAnimation } from "framer-motion";
-import { useInView } from "react-intersection-observer";
+
 
 function Details({ classname, university, course, duration }) {
     const control = useAnimation();
