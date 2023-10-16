@@ -27,4 +27,20 @@
       left: 100%; 
     }
   }
+  @media (max-width: 768px) {
+    .moving-word {
+      font-size: 90px;
+      font-weight: 500; 
+      animation: moveWordMobile 20s linear infinite;
+    }
+  
+    @keyframes moveWordMobile {
+      0% {
+        left: -20%;
+      }
+      100% {
+        left: 100%;
+      }
+    }
+  }
   
