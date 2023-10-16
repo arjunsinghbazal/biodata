@@ -22,7 +22,7 @@ const Main=()=>{
         </div>
         
         <div className="mobFoot">
-          <Foot className="mob-relative"/>
+          <Foot className="mob-fixed"/>
         </div>
       </motion.div>
     )
