@@ -16,7 +16,7 @@ const Main=()=>{
       >
         <Navbar />
         <Home/>
-        <MovingWord word="Welcome to my portfolio"/>
+        <MovingWord word="Home"/>
         <div className="desktopFoot">
           <Footer />
         </div>

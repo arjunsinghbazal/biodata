@@ -27,7 +27,7 @@ function Contact() {
       />
       <Navbar />
       <Contacts />
-      <MovingWord word="This is the page for getting in touch"/>
+      <MovingWord word="Contact Me"/>
     </motion.div>
     <div className="desktopFoot">
           <Footer />

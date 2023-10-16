@@ -17,7 +17,7 @@ const Workin=()=>{
       >
             <Navbar/>
             <Work/>
-            <MovingWord word="This is the work page."/>
+            <MovingWord word="Work"/>
             <div className="desktopFoot">
           <Footer />
         </div>

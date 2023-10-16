@@ -13,7 +13,7 @@ const About=()=>{
             <Navbar/>
             <Personal/>
             <Education/>
-            <MovingWord word="This is the About Page"/>
+            <MovingWord word="About"/>
             <ResumeViewer pdfUrl={cv} />
             <div className="desktopFoot">
           <Footer />

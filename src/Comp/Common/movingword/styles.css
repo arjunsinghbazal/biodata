@@ -1,26 +1,26 @@
 .moving-word-container {
-    position: absolute;
-    top: 15%;
+    position: fixed;
+    top: 60%;
     left: 0;
     width: 100%;
-    height: 90px; /* Set it to cover the entire viewport */
+    height: 50%;
     overflow: hidden;
   }
   
   .moving-word {
-    font-size: 1rem;
+    font-size: 120px;
     font-weight: 600;
-    color:var(--blue);
+    color:var(--black);
     position: absolute;
     white-space: nowrap;
-    z-index: -1;
-    opacity: 0.18;
-    animation: moveWord 10s linear infinite; /* Adjust animation duration as needed */
+    height: fit-content;
+    z-index: -300;
+    opacity: 0.45;
+    animation: moveWord 70s linear infinite; 
   }
-  
   @keyframes moveWord {
     0% {
-      left: -20%;
+      left: -10%;
     }
     100% {
       left: 100%; 
