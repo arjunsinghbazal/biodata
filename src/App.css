@@ -1,6 +1,10 @@
 .mobFoot {
   display: none;
 }
+.main{
+  width: 100vw;
+  height: 100vh;
+}
 @media screen and (max-width: 840px) {
   .mobFoot {
     display: flex;

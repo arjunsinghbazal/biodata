@@ -12,6 +12,7 @@ function Contact() {
       initial={{ scale: 0.8 }}
       animate={{ scale: 1 }}
       exit={{ scale: 0.8 }}
+      className='main'
     >
       <ToastContainer
         position="top-right"
