@@ -39,7 +39,7 @@
 .mob-fixed {
     opacity: 1;
     padding: 0.5rem 0;
-    position: fixed;
+    position: relative;
     width: 100vw;
     bottom: 1.9rem;
     left: 0;
